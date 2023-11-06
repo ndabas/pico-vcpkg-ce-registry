@@ -1,0 +1,21 @@
+{
+    "id": "tools/python/python",
+    "version": "3.9.13",
+    "summary": "Python with PyCryptodome for Pico SDK",
+    "demands": {
+        "windows and x64": {
+            "install": {
+                "unzip": "https://github.com/ndabas/pico-setup-windows/releases/download/v1.5.1/python-3.9.13-embed-amd64.zip",
+                "sha256": "7a58e039356a26af948f398245f6ef16848898003513e37a9ed9f5c886ecf715"
+            },
+            "exports": {
+                "tools": {
+                    "python": "python.exe"
+                },
+                "paths": {
+                    "PATH": "."
+                }
+            }
+        }
+    }
+}

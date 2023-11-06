@@ -1,0 +1,23 @@
+{
+    "id": "tools/raspberrypi/pico-sdk-tools",
+    "version": "1.5.1",
+    "summary": "Tools for Pico SDK",
+    "demands": {
+        "windows and x64": {
+            "install": {
+                "unzip": "https://github.com/ndabas/pico-setup-windows/releases/download/v1.5.1/pico-sdk-tools.zip",
+                "sha256": "f621a6409f5b08244744d4dc81ed7af9b0d010a8cead6b345481991eb8042654"
+            },
+            "exports": {
+                "tools": {
+                    "elf2uf2": "elf2uf2.exe",
+                    "pioasm": "pioasm.exe"
+                },
+                "paths": {
+                    "PATH": ".",
+                    "pico-sdk-tools_DIR": "."
+                }
+            }
+        }
+    }
+}

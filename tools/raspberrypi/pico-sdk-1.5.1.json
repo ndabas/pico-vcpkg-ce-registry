@@ -1,0 +1,14 @@
+{
+    "id": "tools/raspberrypi/pico-sdk",
+    "version": "1.5.1",
+    "summary": "Raspberry Pi Pico SDK",
+    "install": {
+        "unzip": "https://github.com/ndabas/pico-setup-windows/releases/download/v1.5.1/pico-sdk.zip",
+        "sha256": "97d947920a9ec00deb380c64dfd3cc93980289af95c70057fb852dc8321d2f31"
+    },
+    "exports": {
+        "paths": {
+            "PICO_SDK_PATH": "."
+        }
+    }
+}

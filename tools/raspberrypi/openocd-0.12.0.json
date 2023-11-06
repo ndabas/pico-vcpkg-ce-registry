@@ -1,0 +1,22 @@
+{
+    "id": "tools/raspberrypi/openocd",
+    "version": "0.12.0",
+    "summary": "Open On-Chip Debugger for Pico",
+    "demands": {
+        "windows and x64": {
+            "install": {
+                "unzip": "https://github.com/ndabas/pico-setup-windows/releases/download/v1.5.1/openocd-x64-standalone.zip",
+                "sha256": "0d6bf36b7195e023bba33049185825691f9261dd2b6d2c1b5840e7f1b31e8436"
+            },
+            "exports": {
+                "tools": {
+                    "openocd": "openocd.exe"
+                },
+                "paths": {
+                    "PATH": ".",
+                    "OPENOCD_SCRIPTS": "./scripts"
+                }
+            }
+        }
+    }
+}

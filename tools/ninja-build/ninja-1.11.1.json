@@ -1,0 +1,21 @@
+{
+    "id": "tools/ninja-build/ninja",
+    "version": "1.11.1",
+    "summary": "Ninja is a small build system with a focus on speed.",
+    "demands": {
+        "windows and x64": {
+            "install": {
+                "unzip": "https://github.com/ninja-build/ninja/releases/download/v1.11.1/ninja-win.zip",
+                "sha256": "524b344a1a9a55005eaf868d991e090ab8ce07fa109f1820d40e74642e289abc"
+            },
+            "exports": {
+                "tools": {
+                    "ninja": "ninja.exe"
+                },
+                "paths": {
+                    "PATH": "."
+                }
+            }
+        }
+    }
+}
